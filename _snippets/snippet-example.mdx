@@ -1,3 +1,645 @@
 ## My Snippet
 
-<Info>This is an example of a reusable snippet</Info>
+<html>
+<head>
+	
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+	  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <style>
+	  .container {
+      text-align: left;
+    }
+
+    hr {
+      width: 30%;
+      margin: 0;
+      border: none;
+      border-top: 1px solid black; /* Adjust the border properties as needed */
+    }	
+		
+		hr {
+  height: 2px; /* Set the desired thickness in pixels */
+}
+
+		/* Estilo para os botões */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para o botão de imprimir */
+.print {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Efeito de hover nos botões */
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Estilo para o formulário */
+	  
+	  .form {
+    width: 80%; /* Ajuste a largura conforme necessário */
+}
+
+form {
+    text-align: left;
+}
+
+	   .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .cell {
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .input {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        font-size: 16px;
+    }	
+		
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    text-align: justify; /* Justificar o texto */
+    height: 100vh;
+    padding: 0;
+}
+
+/* Estilos específicos para a visualização em tela */
+@media screen {
+    body {
+        margin: 100px; /* Margens para a visualização em tela */
+        text-align: left; /* Alinhar à esquerda na visualização em tela */
+    }
+}
+
+/* Estilos específicos para a impressão */
+@media print {
+    body {
+        margin: 0;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .cell {
+        border: 1px solid #008000;
+        padding: 5px;
+    }
+}
+
+
+
+/* Estilo do cabeçalho */
+.header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #f0f0f0;
+padding: 10px;
+}
+
+/* Estilo do logo */
+.logo {
+width: 200px;
+height: 150px;
+}
+
+/* Estilo dos dados da empresa */
+.company {
+font-family: Arial, sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+
+/* Estilo do título da proposta */
+.title {
+font-family: Arial, sans-serif;
+font-size: 24px;
+font-weight: bold;
+color: #ffffff;
+background-color: #008000;
+padding: 10px;
+border: none;
+}
+
+/* Estilo do formulário */
+.form {
+font-family: Arial, sans-serif;
+font-size: 18px;
+margin: 10px;
+}
+
+/* Estilo dos campos de entrada */
+.input {
+width: 80%;
+padding: 5px;
+border: 1px solid #008000;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+/* Estilo das tabelas */
+.table {
+width: 100%;
+border-collapse: collapse;
+}
+
+/* Estilo das células das tabelas */
+.cell {
+border: 1px solid #008000;
+padding: 5px;
+}
+
+/* Estilo dos botões */
+.button {
+width: 100px;
+height: 40px;
+font-family: Arial, sans-serif;
+font-size: 18px;
+font-weight: bold;
+color: #ffffff;
+background-color: #008000;
+border: none;
+margin: 10px;
+border-radius: 5px;
+}
+
+/* Estilo do botão de imprimir */
+.print {
+display: block;
+}
+
+/* Estilo do botão de imprimir quando for impresso */
+@media print {
+.print {
+display: none;
+}
+}
+
+/* Estilo do rodapé */
+.footer {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #f0f0f0;
+padding: 10px;
+}
+
+/* Estilo do logo do rodapé */
+.footer-logo {
+width: 80px;
+height: 100px;
+}
+
+/* Estilo dos dados do rodapé */
+.footer-data {
+font-family: Arial, sans-serif;
+font-size: 16px;
+}
+	  .title {
+    font-size: 28px; /* Ajuste o tamanho conforme necessário */
+}
+/* Ajustes para melhorar o tamanho das fontes e largura dos formulários */
+.cell {
+    font-size: 20px; /* Ajuste o tamanho conforme necessário */
+}
+
+.input {
+    font-size: 20px; /* Ajuste o tamanho conforme necessário */
+}
+
+.form {
+    width: 80%; /* Ajuste a largura conforme necessário */
+}
+
+.title {
+    font-size: 28px; /* Ajuste o tamanho conforme necessário */
+}
+
+body {
+    font-size: 30px; /* Ajuste o tamanho conforme necessário */
+}
+
+
+
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho com logo e dados da empresa -->
+    <div class="header">
+        <img src="logocris.png" alt="Logo da Minha Empresa" class="logo">
+        <div class="company">
+            Dados da Minha Empresa<br>
+            Endereço da Minha Empresa<br>
+            Telefone: (11) 1234-5678
+        </div>
+    </div>
+    <!-- Título da proposta -->
+	
+    <div class="title">
+        Proposta de Serviço de Internet Via Satélite
+	</div>
+    <!-- Formulário com os dados da proposta -->
+    <form class="form" id="form">
+        <!-- Número da proposta -->
+        <label for="number">Número da proposta:</label>
+        <input type="text" id="number" name="number" class="input" value="[Gere um número aleatório mais a data do dia]" readonly><br>
+        <!-- Nome da empresa -->
+        <label for="name">Nome da empresa:</label>
+        <input type="text" id="name" name="name" class="input" required><br>
+        <!-- CNPJ da empresa -->
+        <label for="cnpj">CNPJ da empresa:</label>
+        <input type="text" id="cnpj" name="cnpj" class="input" pattern="\d{2}\.\d{3}\.\d{3}\/\d{4}-\d{2}" placeholder="00.000.000/0000-00" required><br>
+       <!-- Título 1 -->
+<div class="title">
+    A LINK TELECOM é uma provedora de soluções de conectividade, especializada na Tecnologia de Comunicação Via Satélite (Vsat)
+</div>
+<!-- Texto 1 -->
+<div class="form">
+    <p>
+        Com equipes capacitadas na prestação de serviços em diversos estados do Brasil, para implantação de redes de comunicação via satélite, que chegam aonde nenhuma outra tecnologia possa atender. 
+    </p>
+    <ul>
+        <li>Execução de Infraestrutura;</li>
+        <li>Instalação, configuração, ativação, desinstalação e remanejamento interno e externo;</li>
+        <li>Testes e validação dos links;</li>
+        <li>Suporte técnico.</li>
+    </ul>
+    <p>
+        Nosso foco na prestação de serviços em telecomunicações foi idealizado sob o princípio fundamental de customizar serviços de acordo com as necessidades de nossos clientes e requisitos de cada projeto. A grande experiência na prestação de serviços foi adquirida ao longo de 20 anos de atuação na área, e nesta trajetória, desenvolvendo conhecimentos que fazem da empresa uma verdadeira colaboradora junto aos seus clientes.
+    </p>
+</div>
+<!-- Título 2 -->
+<div class="title">
+    Especificações dos serviços Conectividade via Satélite
+</div>
+<!-- Texto 2 -->
+<div class="form">
+    <ul>
+        <li>Fornecimento dos equipamentos eletrônicos e antena bidirecional, para INTERNET VIA SATÉLITE, através de VENDA, com prévia solicitação e prazos para entrega a serem informados.</li>
+        <li>Configuração e integração do equipamento com os serviços de telecomunicações via satélite. (Equipamento a ser enviado após compra, ativado)</li>
+        <li>Suporte técnico remoto, durante o processo de instalação e pós instalação.</li>
+        <li>Treinamento básico para operação e manutenção da estação terrena, havendo necessidade. (Neste caso deverá ser tratado, para agendamento e verificações).</li>
+    </ul>
+    <p>
+       <li> Equipamentos sob a modalidade venda. Faturamento em até 2 vezes, sendo entrada/30dias. </li>
+	  <li>  Variável Frete: Os valores para frete dependerão da logística a ser realizada e combinada entre as partes, bem como da necessidade de urgência ou não e prazos que necessitarão receber o produto. </li>
+		  <li>O plano escolhido para contratação estará especificado em Anexos/Aditivos ao Contrato Principal. Valores mensais para planos com fidelidade de 12 meses. Faturamento via boleto bancário e Nota Fiscal.</li>
+    </p>
+</div>
+
+    <!-- Título 3 -->
+
+<div class="title">
+    Soluções de Conectividade Via Satélite
+</div>
+<!-- Tabela 1 -->
+<table class="table">
+    <tr>
+       <td class="cell" style="background-color: #2e7d32; color: #fff;">Descrição/Detalhamento</td>
+        <td class="cell" style="background-color: #2e7d32; color: #fff;">LNK MÓVEL - ASSINATURA REGIONAL</td>
+        <td class="cell" style="background-color: #2e7d32; color: #fff;">LNK TRANSPORT IP - ASSINATURA REGIONAL</td>
+        <td class="cell" style="background-color: #2e7d32; color: #fff;">Prioritário LNK 1TB</td>
+    </tr>
+    <tr>
+        <td class="cell">Velocidade de Download</td>
+        <td class="cell"><input type="text" id="download1" name="download1" class="input" style="background-color: #f2f2f2;"></td>
+        <td class="cell"><input type="text" id="download2" name="download2" class="input" style="background-color: #f7f7f7;"></td>
+        <td class="cell"><input type="text" id="download3" name="download3" class="input" style="background-color: #f2f2f2;"></td>
+    </tr>
+    <tr>
+        <td class="cell">Velocidade de Upload</td>
+        <td class="cell"><input type="text" id="upload1" name="upload1" class="input" style="background-color: #f7f7f7;"></td>
+        <td class="cell"><input type="text" id="upload2" name="upload2" class="input" style="background-color: #f2f2f2;"></td>
+        <td class="cell"><input type="text" id="upload3" name="upload3" class="input" style="background-color: #f7f7f7;"></td>
+    </tr>
+    <tr>
+        <td class="cell">Franquia de Dados</td>
+        <td class="cell"><input type="text" id="data1" name="data1" class="input" style="background-color: #f2f2f2;"></td>
+        <td class="cell"><input type="text" id="data2" name="data2" class="input" style="background-color: #f7f7f7;"></td>
+        <td class="cell"><input type="text" id="data3" name="data3" class="input" style="background-color: #f2f2f2;"></td>
+    </tr>
+    <tr>
+        <td class="cell">Valor Mensal</td>
+        <td class="cell"><input type="text" id="price1" name="price1" class="input" style="background-color: #f7f7f7;"></td>
+        <td class="cell"><input type="text" id="price2" name="price2" class="input" style="background-color: #f2f2f2;"></td>
+        <td class="cell"><input type="text" id="price3" name="price3" class="input" style="background-color: #f7f7f7;"></td>
+    </tr>
+    <tr>
+        <td class="cell">Instalação</td>
+        <td class="cell"><input type="text" id="install1" name="install1" class="input" style="background-color: #f2f2f2;"></td>
+        <td class="cell"><input type="text" id="install2" name="install2" class="input" style="background-color: #f7f7f7;"></td>
+        <td class="cell"><input type="text" id="install3" name="install3" class="input" style="background-color: #f2f2f2;"></td>
+    </tr>
+</table>
+
+        <!-- Título 4 -->
+        <div class="title">
+            Detalhamento e especificações Conectividade via Satélite
+        </div>
+<!-- Texto 4 -->
+<div class="form">
+    <p>
+        A LINK TELECOM tem o compromisso de oferecer equipamentos de alta qualidade e garantir o bom funcionamento deles. No entanto, é importante ressaltar que não nos responsabilizamos por defeitos causados por mau uso dos equipamentos ou por danos decorrentes de eventos naturais e deslocamentos constantes.
+    </p>
+    <p>
+        Como precaução, recomendamos que em casos de fortes chuvas, os equipamentos sejam desconectados da tomada. Essa simples ação pode ajudar a proteger os equipamentos de possíveis danos causados por descargas elétricas ou outras condições climáticas. Cabe ao cliente utilizar os equipamentos de acordo com as orientações e instruções a serem fornecidas pelo Suporte Técnico, a fim de evitar problemas decorrentes de uso inadequado. Além disso, recomendamos que o cliente siga todas as diretrizes de segurança e conserve os equipamentos em condições apropriadas.
+    </p>
+    <p>
+        O atendimento de suporte dos serviços é realizado principalmente por meio de canais de comunicação online, tais como WhatsApp e e-mail.
+    </p>
+    <ul>
+        <li>
+            A LINK TELECOM possui uma equipe especializada e treinada para oferecer suporte técnico aos seus clientes. Em certos casos, podemos fornecer orientações e instruções específicas ao cliente, permitindo que este siga as etapas recomendadas para solucionar o problema.
+        </li>
+        <li>
+            Essa abordagem permite que o cliente assuma um papel ativo na resolução, aproveitando o conhecimento e a experiência de nossa equipe técnica.
+        </li>
+    </ul>
+    <p>
+        No entanto, em situações mais complexas ou que exijam recursos específicos, a LINK TELECOM pode precisar do apoio da operadora. Isso ocorre quando o problema está diretamente relacionado à infraestrutura ou aos serviços fornecidos pela operadora de satélite. Nesses casos, a LINK TELECOM trabalhará em conjunto com a empresa parceira para resolver o problema da forma mais eficiente possível.
+    </p>
+    <p>
+        É importante destacar que, ao solicitar o apoio da empresa parceira, pode haver um tempo adicional necessário para a resolução do problema. Isso ocorre porque a operadora de satélite precisará realizar suas próprias avaliações e ações para resolver a questão. O tempo necessário pode variar dependendo da natureza do problema, da disponibilidade dos recursos e de outros fatores relevantes.
+    </p>
+    <p>
+        Sobre a política de despesas especiais de viagem relacionadas à instalação dos nossos serviços, gostaríamos de esclarecer alguns pontos para garantir transparência e clareza:
+    </p>
+    <ul>
+        <li>
+            Entendemos que a instalação dos nossos serviços pode ocorrer em áreas remotas ou de difícil acesso, o que pode exigir deslocamentos especiais.
+        </li>
+        <li>
+            Nesse contexto, é importante destacar que as despesas de viagem, incluindo transporte aéreo, marítimo, deslocamentos rodoviários, hospedagem e alimentação, serão de responsabilidade do cliente, caso sejam necessárias. Reconhecemos que essas despesas podem surgir devido à natureza específica das instalações e à localização dos clientes.
+        </li>
+    </ul>
+    <p>
+        Nosso compromisso é oferecer um serviço de atendimento com qualidade e garantir uma instalação adequada e eficiente. Estamos à disposição para esclarecer quaisquer dúvidas e trabalhar em conjunto para tornar o processo de contratação e instalação o mais tranquilo possível.
+    </p>
+</div>
+
+     
+       <!-- Título 5 -->
+<div class="title">
+    Finalização
+</div>
+<p>
+<!-- Texto 5 -->
+
+<!-- Campos de entrada para a cidade, estado, mês e ano -->
+<div style="display: flex;">
+
+    <!-- Campo de entrada para a cidade -->
+    <div style="flex: 1; border: 0px solid; padding: 5px;">
+        <label for="city" style="font-size: 25px;">Cidade:</label>
+        <input type="text" id="city" name="city" style="width: 70%; height: 50px; font-size: 16px;" required>
+    </div>
+
+    <!-- Lista suspensa para os estados -->
+    <div style="flex: 1; border: 0px solid; padding: 5px;">
+        <label for="state" style="font-size: 16px;">Estado:</label>
+        <select id="state" name="state" style="width: 40%; height: 50px; font-size: 16px;">
+            <option value="MG">MG</option>
+            <option value="SP">SP</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+
+    <!-- Lista suspensa para os meses -->
+    <div style="flex: 1; border: 0px solid; padding: 5px;">
+        <label for="month" style="font-size: 25px;">Mês:</label>
+        <select id="month" name="month" style="width: 50%; height: 50px; font-size: 16px;">
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+
+    <!-- Lista suspensa para os anos -->
+    <div style="flex: 1; border: 0px solid; padding: 5px;">
+        <label for="year" style="font-size: 25px;">Ano:</label>
+        <select id="year" name="year" style="width: 30%; height: 50px; font-size: 16px;">
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+</div>
+<p>
+<!-- Aceite da Proposta -->
+<div style="display: flex; flex-direction: column; align-items: flex-start;">
+    Aceite da Proposta Número <span id="proposal-number-display">
+        <input type="text" id="number" name="number" class="input" value="[Gere um número aleatório mais a data do dia]" readonly style="font-size: 16px;"><br>
+    </span>
+
+    <!-- Lista suspensa para a validade da proposta -->
+    <label for="validity" style="font-size: 25px;">Válida por:</label>
+	
+    <select id="validity" name="validity" style="width: 5%; height: 50px; font-size: 20px;">
+        <option value="5">5 dias</option>
+        <option value="10">10 dias</option>
+        <option value="15">15 dias</option>
+        <option value="20">20 dias</option>
+        <option value="30">30 dias</option>
+    </select>
+</div>
+</p>
+
+<!-- Tabela -->
+<table border="1" cellspacing="0" cellpadding="10" style="width: 50%; border-top: none; border-collapse: collapse; float: right;">
+    <tr>
+        <td></td>
+    </tr>
+</table>
+
+<!-- Assinatura do Responsável Legal -->
+<p class="form" style="clear: both; text-align: right; margin-top: 20px;">
+    Assinatura do Responsável Legal
+</p>
+
+	
+    Nome Completo:<br>
+    <input type="text" id="name" name="name" class="input" required><br>
+    Cargo:<br>
+    <input type="text" id="position" name="position" class="input" required><br>
+    CPF:<br>
+    <input type="text" id="cpf" name="cpf" class="input" required><br>
+    Telefone para contato:<br>
+    <input type="text" id="phone" name="phone" class="input" required><br>
+    E-mail:<br>
+    <input type="email" id="email" name="email" class="input" required><br>
+    Obs Sinalizar no e-mail resposta a esta proposta, o plano selecionado para o serviço VSAT.
+</p>
+
+             <table>
+    <tr>
+        <td><button class="button print" onclick="window.print()">Imprimir</button></td>
+        <td><button class="button" onclick="save()">Salvar</button></td>
+        <td><button class="button" onclick="clearForm()">Limpar</button></td>
+    </tr>
+</table>
+
+
+  <!-- Rodapé -->
+<div class="footer">
+    <img src="logocris.png" alt="Logo da Minha Empresa" class="footer-logo">
+    <div class="footer-data">
+        www.linktele.com.br<br>
+        financeiro@linktele.com.br<br>
+        (11) 91424-1927 (Comercial) / (11) 91248-7460 (Financeiro)
+    </div>
+</div>
+ 
+    <script>
+            
+         // Função para adicionar a máscara ao campo CPF
+    function maskCPF(cpf) {
+        var value = cpf.value;
+        value = value.replace(/\D/g, ""); // Remove tudo o que não é dígito
+        value = value.replace(/(\d{3})(\d)/, "$1.$2"); // Coloca ponto após o terceiro dígito
+        value = value.replace(/(\d{3})(\d)/, "$1.$2"); // Coloca ponto após o sexto dígito
+        value = value.replace(/(\d{3})(\d{1,2})$/, "$1-$2"); // Coloca hífen após o nono dígito
+        cpf.value = value.substring(0, 14); // Limita o valor a 14 caracteres
+    }
+
+    // Adiciona a máscara ao campo CPF quando o usuário digita
+    document.getElementById('cpf').addEventListener('keyup', function() {
+        maskCPF(this);
+    });
+// Função para adicionar a máscara ao campo de telefone
+function maskPhone(phone) {
+    var value = phone.value;
+    value = value.replace(/\D/g, ""); // Remove tudo o que não é dígito
+    value = value.replace(/^(\d{2})(\d)/g, "($1) $2"); // Coloca parênteses em volta dos dois primeiros dígitos
+    value = value.replace(/(\d)(\d{4})$/, "$1-$2"); // Coloca um hífen antes dos últimos quatro dígitos
+    phone.value = value.substring(0, 15); // Limita o valor a 14 caracteres
+}
+
+// Adiciona a máscara ao campo de telefone quando o usuário digita
+document.getElementById('phone').addEventListener('keyup', function() {
+    maskPhone(this);
+});
+
+
+        // Função para gerar um número aleatório
+        function getRandomNumber() {
+            return Math.floor(Math.random() * 1000000) + 1;
+        }
+
+        // Função para salvar os dados do formulário
+        function save() {
+            // Obter os dados do formulário
+            var form = document.getElementById('form');
+            var data = {};
+            for (var i = 0; i < form.elements.length; i++) {
+                var element = form.elements[i];
+                if (element.name) {
+                    data[element.name] = element.value;
+                }
+            }
+
+            // Salvar os dados do formulário no localStorage
+            localStorage.setItem('form', JSON.stringify(data));
+        }
+
+        // Função para carregar os dados do formulário
+        function load() {
+            // Obter os dados do formulário do localStorage
+            var data = localStorage.getItem('form');
+            if (data) {
+                data = JSON.parse(data);
+
+                // Preencher o formulário com os dados
+                var form = document.getElementById('form');
+                for (var i = 0; i < form.elements.length; i++) {
+                    var element = form.elements[i];
+                    if (element.name && data[element.name]) {
+                        element.value = data[element.name];
+                    }
+                }
+            }
+        }
+
+        // Função para limpar o formulário
+        function clearForm() {
+            // Limpar os dados do formulário do localStorage
+            localStorage.removeItem('form');
+
+            // Limpar o formulário
+            var form = document.getElementById('form');
+            for (var i = 0; i < form.elements.length; i++) {
+                var element = form.elements[i];
+                if (element.name) {
+                    element.value = '';
+                }
+            }
+
+            // Gerar um novo número para o número da proposta
+            document.getElementById('number').value = getRandomNumber() + ' - ' + new Date().toLocaleDateString();
+        }
+
+        // Gerar um número aleatório para o número da proposta
+        document.getElementById('number').value = getRandomNumber() + ' - ' + new Date().toLocaleDateString();
+
+        // Carregar os dados do formulário
+        load();
+
+        // Adicionar máscara ao campo CNPJ
+        
+        
+             // Função para adicionar a máscara ao campo CNPJ
+    function maskCNPJ(cnpj) {
+        var value = cnpj.value;
+        value = value.replace(/\D/g, ""); // Remove tudo o que não é dígito
+        value = value.replace(/^(\d{2})(\d)/, "$1.$2"); // Coloca ponto após o segundo dígito
+        value = value.replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3"); // Coloca ponto após o quinto dígito
+        value = value.replace(/\.(\d{3})(\d)/, ".$1/$2"); // Coloca uma barra após o oitavo dígito
+        value = value.replace(/(\d{4})(\d)/, "$1-$2"); // Coloca um hífen depois do vigésimo dígito
+        cnpj.value = value.substring(0, 18); // Limita o valor a 18 caracteres
+    }
+
+    // Adiciona a máscara ao campo CNPJ quando o usuário digita
+    document.getElementById('cnpj').addEventListener('keyup', function() {
+        maskCNPJ(this);
+    });
+    // Pegar o valor do campo "Número da proposta"
+    var proposalNumber = document.getElementById('number').value;
+
+    // Usar o mesmo valor no campo "Aceite da Proposta Nro"
+    document.getElementById('proposal-number-display').textContent = proposalNumber;
+    </script>
+</body>
+</html>
